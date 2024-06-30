@@ -1,28 +1,21 @@
+@charset "UTF-8";
+
 .page.theme_light {
-  --cover-image: url(../images/cover-image-light.png);
-  --accent-clr: #ff8dcb;
-  --accent-clr-with-background: #353430;
-  --accent-heading-clr: #ffc2e6;
-  --text-clr: #353430;
-  --button-hover-clr: #32312d66;
-  --decorative-bracket-clr: #353430;
-  --menu-clr: #353430;
-  --rec-decoration-clr: transparent;
-  --heading-clr: #353430;
+  --main-text-color: #353430;
+  --title-color: #ffc2e6;
+  --title-shadow: #ff0070;
+  --title-decor: #ff8dcb;
+  --hover-color: 1px solid rgba(50, 49, 45, 0.4);
+  --background-color: #fff1f7;
+  --background-image: url(../images/cover-image-light.png);
+  --article-title-color: var(--main-text-color);
+  --section-title-color: var(--main-text-color);
+  --border-color: var(--title-shadow);
+  --corners-color: var(--main-text-color);
+  --link-shadow: var(--title-color);
+  --rec-color: var(--background-color);
 }
 
-@media (prefers-color-scheme: light) {
-
-  :root {
-    --cover-image: url(../images/cover-image-light.png);
-    --accent-clr: #ff8dcb;
-    --accent-clr-with-background: #353430;
-    --accent-heading-clr: #ffc2e6;
-    --text-clr: #353430;
-    --button-hover-clr: #32312d66;
-    --decorative-bracket-clr: #353430;
-    --menu-clr: #353430;
-    --rec-decoration-clr: transparent;
-    --heading-clr: #353430;
-  }
+.page.theme_light .header__rec {
+  display: none;
 }
