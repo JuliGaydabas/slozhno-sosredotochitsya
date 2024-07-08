@@ -14,9 +14,9 @@ body {
   font-family: var(--font-family);
   font-size: 18px;
   font-weight: 400;
-  min-inline-size: 373px;
-  max-inline-size: 1022px;
-  margin: 2 auto;
+  min-inline-size: 375px;
+  max-inline-size: 1024px;
+  margin: 0 auto;
   block-size: 100%;
 }
 
@@ -55,8 +55,8 @@ a {
 .decorated-zone::before {
   content: "";
   position: absolute;
-  width: 23px;
-  height: 23px;
+  width: 25px;
+  height: 25px;
   border-left: 1px solid var(--corners-color);
   border-bottom: 1px solid var(--corners-color);
   left: 20px;
@@ -66,15 +66,15 @@ a {
 @media (width < 768px) and (width >= 375px) {
   .decorated-zone::before {
     left: 10px;
-    bottom: 19px;
+    bottom: 17px;
   }
 }
 
 .decorated-zone::after {
   content: "";
   position: absolute;
-  width: 26px;
-  height: 26px;
+  width: 25px;
+  height: 25px;
   border-right: 1px solid var(--corners-color);
   border-top: 1px solid var(--corners-color);
   right: 20px;

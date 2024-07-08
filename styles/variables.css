@@ -39,3 +39,9 @@
     --rec-color: var(--background-color);
   }
 }
+
+/* Page */
+
+.page {
+  --transition-duration: 0.25s;
+}
