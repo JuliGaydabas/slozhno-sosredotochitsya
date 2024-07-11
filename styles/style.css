@@ -3,7 +3,8 @@
 /* Page */
 
 .page {
-  background: var(--background-image) no-repeat top center, var(--background-color);
+  background: var(--background-image) no-repeat top center,
+    var(--background-color);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -14,7 +15,7 @@
 /* Header */
 
 .header {
-  padding-right: 20px;
+  padding: 0 20px;
   position: relative;
   height: 100%;
   min-height: 768px;
@@ -68,10 +69,6 @@
   .header__theme-menu-list {
     flex-direction: column;
     align-items: flex-end;
-  }
-
-  header {
-    padding: 0 20px;
   }
 }
 
@@ -456,4 +453,3 @@
     padding: 262px 10px;
   }
 }
-
