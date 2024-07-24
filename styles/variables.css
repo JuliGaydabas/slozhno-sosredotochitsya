@@ -1,23 +1,20 @@
 :root {
-  
-  --accent-color: #ff0070;
-  --accent-text-color: #000028;
-  --menu-text-color: #ff0070;
-  --menu-text-color-hover: rgb(255 0 112 / 0.4);
-  --background-color: #000028;
-  --font-family: 'IBM Plex mono';
-  --text-line-hight: 1.3;
-  --text-font-size: 18px;
-  --text-color:#f1b2ce;
-  --margin-block-end: 50px;
-  --main-padding: 10px;
-  --title-text-color: #db00ff;
-  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --title-shadow: 4px 4px 0px #ff0070;
-  --footer-shadow: 2px 2px 0px #ff0070;
-  --record-color: #ff0070;
-  --record-shadow: 0 0 0 3px rgb(255 0 112 / 0.4);
-  --question-color: #ff0070;
-  --background-image: url("../images/cover-image-dark.png");
-  --border-color: #ff0070;
+  --page-background-color: rgb(165, 42, 42);
+  --background-image: url(../images/cover-image-dark.png);
+  --font-main-title-color: rgba(219, 0, 255, 1);
+  --font-article-heading-color: rgba(0, 0, 40, 1);
+  --font-section-heading-color: rgba(255, 0, 112, 1);
+  --font-color: rgba(241, 178, 206, 1);
+  --background-heading-color: var(--font-section-heading-color);
+  --accent-color: var(--font-section-heading-color);
+  --hover-border-color: rgba(255, 0, 112, 0.4);
+  --corner-color: var(--font-section-heading-color);
+  --menu-color: var(--font-section-heading-color);
+  --vis-dark: visible;
+  --link-border-style: solid;
+  --shadow-color: var(--font-section-heading-color);
+}
+
+:root {
+  --h-padding: 10px;
 }
