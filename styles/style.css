@@ -219,12 +219,6 @@
   font-size: 18px;
 }
 
-.section__article-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .section__article-item:not(:last-child) {
   display: block;
   margin-bottom: 20px;
