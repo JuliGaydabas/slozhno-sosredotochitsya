@@ -1,37 +1,37 @@
 @charset "UTF-8"; 
 
 .page.theme_light {
-  --page-background-color: rgb(255, 255, 255);
-  --background-image: url(../images/cover-image-light.png);
+  --page-bg-color: rgb(255, 255, 255);
+  --bg-img: url(../images/cover-image-light.png);
   --font-main-title-color: rgba(255, 194, 230, 1);
   --font-article-heading-color: rgba(53, 52, 48, 1);
-  --font-section-heading-color: var(--font-article-heading-color);
-  --font-color: var(--font-article-heading-color);
-  --background-heading-color: rgba(255, 141, 203, 1);
+  --font-section-heading-color: rgba(53, 52, 48, 1);
+  --font-color: rgba(53, 52, 48, 1);
+  --bg-heading-color:  rgba(255, 141, 203, 1);
   --accent-color: rgba(255, 0, 112, 1);
   --hover-border-color: rgba(50, 49, 45, 0.4);
-  --corner-color: var(--font-article-heading-color);
-  --menu-color: var(--font-article-heading-color);
+  --corner-color: rgba(53, 52, 48, 1);
+  --menu-color: rgba(53, 52, 48, 1);
   --vis-dark: hidden;
   --link-border-style: none;
-  --shadow-color: var(--background-heading-color);
+  --shadow-color: rgba(255, 141, 203, 1);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --page-background-color: rgb(255, 255, 255);
-    --background-image: url(../images/cover-image-light.png);
+    --page-bg-color: rgb(255, 255, 255);
+    --bg-img: url(../images/cover-image-light.png);
     --font-main-title-color: rgba(255, 194, 230, 1);
     --font-article-heading-color: rgba(53, 52, 48, 1);
-    --font-section-heading-color: var(--font-article-heading-color);
-    --font-color: var(--font-article-heading-color);
-    --background-heading-color: rgba(255, 141, 203, 1);
+    --font-section-heading-color: rgba(53, 52, 48, 1);
+    --font-color: rgba(53, 52, 48, 1);
+    --bg-heading-color:  rgba(255, 141, 203, 1);
     --accent-color: rgba(255, 0, 112, 1);
     --hover-border-color: rgba(50, 49, 45, 0.4);
-    --corner-color: var(--font-article-heading-color);
-    --menu-color: var(--font-article-heading-color);
+    --corner-color: rgba(53, 52, 48, 1);
+    --menu-color: rgba(53, 52, 48, 1);
     --vis-dark: hidden;
     --link-border-style: none;
-    --shadow-color: var(--background-heading-color);
-  }
+    --shadow-color: rgba(255, 141, 203, 1);
+  }  
 }
