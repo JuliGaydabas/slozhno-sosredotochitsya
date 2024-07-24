@@ -1,3 +1,5 @@
+@charset "UTF-8"; 
+
 .page.theme_dark {
   --page-bg-color: rgb(165, 42, 42);
   --bg-img: url(../images/cover-image-dark.png);

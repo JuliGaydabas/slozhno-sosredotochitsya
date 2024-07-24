@@ -1,3 +1,7 @@
+@charset "UTF-8"; 
+
+/* Page */ 
+
 .page {
   display: block;
   color: var(--font-color);
@@ -14,6 +18,8 @@
   background-attachment: fixed;
   padding: 0 var(--h-padding);
 }
+
+/* Header */ 
 
 .header {
   position: relative;
